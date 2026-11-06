@@ -1,0 +1,19 @@
+[package]
+name = "hachimi-lang"
+version = "0.1.0"
+edition = "2021"
+authors = ["Hachimi Lang contributors"]
+description = "A small, safe Korean-token esoteric programming language"
+license = "MIT"
+repository = "https://github.com/roscore/hachimi-lang"
+readme = "README.md"
+keywords = ["esolang", "interpreter", "korean", "brainfuck"]
+categories = ["command-line-utilities", "compilers"]
+
+[lib]
+name = "hachimi_lang"
+path = "src/lib.rs"
+
+[[bin]]
+name = "hachimi"
+path = "src/main.rs"
